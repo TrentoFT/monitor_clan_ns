@@ -96,7 +96,7 @@ def run_once() -> None:
     old = load_snapshot()
     current = fetch_top_clans()
     
-    print(Fore.CYAN + "\n===== TOP 5 CLANES =====")
+    print(Fore.CYAN + "\n===== TOP 10 CLANES =====")
 
     for r in current:
         print(Fore.CYAN + f"{r.rank}) {r.name}  |  REP: {r.rep}")
