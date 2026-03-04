@@ -1,0 +1,17 @@
+# Entornos
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Config/secrets
+.env
+
+# Estado del bot
+snapshot_clanes.json
+
+# VS Code
+.vscode/
+tempCodeRunnerFile.py
