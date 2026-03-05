@@ -126,7 +126,6 @@ def main() -> None:
     print(f"🔗 JSON: {RANKINGS_URL}")
     print(f"⏱️ Intervalo: {POLL_SECONDS}s | TOP_N={TOP_N} | MIN_DELTA={MIN_DELTA}")
 
-    notify_ntfy("TEST: Railway envía ntfy ✅")
 
     while True:
         try:
